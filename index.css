@@ -22,6 +22,10 @@ time, mark, audio, video {
     border: 1px solid gray;
 }
 
+strong {
+    font-weight: bold;
+}
+
 h1 {
     font-size: 3rem;
     font-family: 'Chelsea Market', cursive;
@@ -36,45 +40,62 @@ nav a {
     text-align:center;
     color: white;
     text-decoration: none;
-    margin: 2% 5%;
-    padding: 5px 20px;
+    width: 12%;
+    height: 2%;
+    padding: 1%;
     border-radius:10px;
-    
+     
 }
 
-
 #top-nav {
-    padding: 5% ;
+    height: 10%;
 }
 
 nav .plan {
     background-color: #ff764e;
-    width:150px;
-    height:50px; 
+    margin: 1% 6% 1% 14%;
+}
+
+nav .plan:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: #ff764e;
 }
 
 nav .learn {
     background-color: #5ED3EB;
-    width:150px;
-    height:50px; 
+    margin: 1% 6% 1% 6%;
+}
+
+nav .learn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color:#5ED3EB;
 }
 
 nav .involved {
     background-color: #FFCD69;
-    width:150px;
-    height:50px; 
+    margin: 1% 14% 1% 6%;
+}
+
+nav .involved:hover {
+    background-color: white;
+    border: 1px solid black;
+    color:#FFCD69;
 }
 
 .title {
+    display: block;
     width: 90%;
-    margin: 2% auto;
+    height: 30%;
+    margin: 0 auto;
 }
 
 .title img {
     display: inline-block;
-    width: 20%;
+    width:25%;
+    height: auto;
     border-radius: 50%;
-    margin: auto;
     padding: 2%;
 }
 
@@ -82,7 +103,7 @@ nav .involved {
     display: inline-block;
     text-align: center;
     width:65%;
-    margin: 1%;
+    padding-bottom: 2%;
 }
 
 #always-open {
@@ -95,7 +116,7 @@ nav .involved {
     width: 90%;
     background-color: #DDB9A3;
     color: white;
-}
+    }
 
 p {
     padding: 1rem;
@@ -103,7 +124,8 @@ p {
 
 .resources {
     width: 30%;
-    margin: 2% auto 4%;    
+    margin: 2% auto 4%;
+    font-size: .8rem    
     }
 
 .resources img {
@@ -119,13 +141,13 @@ p {
 
 .hero-image {
     background-image:url(assets/footer_img.jpg);
-    height:25vh;
-    background-attachment:fixed;
+    height:40vh;
+    background-attachment: fixed;
     background-position: bottom;
     background-size: 100%;
 }
 
-#footer-nav {
+#bottom-nav {
     background-color: #F9E7DC;
-    padding: 5%;
+    padding: 2%;
 }
