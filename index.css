@@ -19,6 +19,7 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     font-family: 'Roboto Mono', monospace;
+    border: 1px solid gray;
 }
 
 h1 {
@@ -32,45 +33,61 @@ p {
 
 nav a {
     display:inline-block;
-    width:110px;
-    height:5%; 
     text-align:center;
     color: white;
-    background-color: black;
     text-decoration: none;
-    margin: 0 auto;
+    margin: 2% 5%;
     padding: 5px 20px;
     border-radius:10px;
     
 }
 
+
+#top-nav {
+    padding: 5% ;
+}
+
 nav .plan {
     background-color: #ff764e;
+    width:150px;
+    height:50px; 
 }
 
 nav .learn {
-    background-color: #5ED3EB
+    background-color: #5ED3EB;
+    width:150px;
+    height:50px; 
 }
 
 nav .involved {
     background-color: #FFCD69;
+    width:150px;
+    height:50px; 
 }
 
 .title {
     width: 90%;
-    margin: 50px auto;
+    margin: 2% auto;
+}
+
+.title img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    margin: auto;
+    padding: 2%;
 }
 
 .title-intro {
     display: inline-block;
     text-align: center;
-    width:60%;
-    margin: 3%;
+    width:65%;
+    margin: 1%;
 }
 
-header img {
-    width: 20%;
-    border-radius: 50%;
+#always-open {
+    width: 65%;
+    margin: 0 auto;
 }
 
 .promo {
@@ -85,17 +102,30 @@ p {
 }
 
 .resources {
-    width: 20%;
-    margin: 0 auto;
-    align-items: center;
+    width: 30%;
+    margin: 2% auto 4%;    
     }
 
 .resources img {
-    width: 70%;
+    display: block;
+    width: 50%;
     margin: 0 auto;
     
 }
 
-footer img {
-    width: 100%;
+.snippet {
+    margin: 10% auto;
+}
+
+.hero-image {
+    background-image:url(assets/footer_img.jpg);
+    height:25vh;
+    background-attachment:fixed;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+#footer-nav {
+    background-color: #F9E7DC;
+    padding: 5%;
 }
